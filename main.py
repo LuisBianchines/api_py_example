@@ -3,7 +3,7 @@ from psycopg2.extras import DictCursor
 from flask import Flask, make_response, jsonify, request
 
 conn = psycopg2.connect(
-    dbname="precisao",
+    dbname="cps",
     user="postgres",
     password="masterkey",
     host="localhost",
