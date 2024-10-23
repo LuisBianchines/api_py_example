@@ -32,7 +32,7 @@ def get_maquinas():
         )
     )
 
-@app.route('/maquinas', methods=['POST'])
+@app.route('/maquinas', methods=['POST']) 
 def create_maquina():
     machine = request.json
     rows.append(machine)
